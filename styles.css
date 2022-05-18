@@ -12,6 +12,10 @@ html {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   text-align: left;
   font-size: 50px;
@@ -47,9 +51,6 @@ input[type=text], input[type=password] {
 
 }
 
-.BigHeading {
-  font-size: 100px;
-}
 
 .button {
   width: 140px;
@@ -65,6 +66,7 @@ input[type=text], input[type=password] {
   border-radius: 20px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
+  cursor: pointer;
   outline: none;
   }
 
@@ -73,6 +75,12 @@ input[type=text], input[type=password] {
   box-shadow: 0px 15px 20px rgba(137,208,238,255);
   color: #fff;
   transform: translateY(-7px);
+}
+
+.button:active {
+  background-color: #6fc8ee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .container {
@@ -106,5 +114,12 @@ input[type=text], input[type=password] {
   background-color: #89d0ee;
   box-shadow: 0px 15px 20px rgba(137,208,238,255);
   color: #fff;
+  cursor: pointer;
   transform: translateY(-7px);
+}
+
+.registerbtn:active {
+  background-color: #6fc8ee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
