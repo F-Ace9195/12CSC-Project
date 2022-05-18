@@ -14,12 +14,41 @@ html {
 
 h1 {
   text-align: left;
+  font-size: 50px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+p {
+ font-size: 30px;
 }
 
 body {
-      font-family: Product Sans;
-      font-size: 40px;
-      padding: 20px;
+    font-family: Product Sans;
+    font-size: 35px;
+    padding: 20px;
+}
+
+input[type=text], input[type=password] {
+  font-family: Product Sans;
+  width: 1800px;
+  padding: 15px;
+  margin: 10px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(83, 83, 83, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+
+}
+
+.BigHeading {
+  font-size: 100px;
 }
 
 .button {
@@ -36,13 +65,46 @@ body {
   border-radius: 20px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
-  cursor: pointer;
   outline: none;
   }
 
-  .button:hover {
-    background-color: #89d0ee;
-    box-shadow: 0px 15px 20px rgba(137,208,238,255);
-    color: #fff;
-    transform: translateY(-7px);
-  }
+.button:hover {
+  background-color: #89d0ee;
+  box-shadow: 0px 15px 20px rgba(137,208,238,255);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.container {
+  font-family: Product Sans;
+  padding: 15px;
+  color: rgb(70, 70, 70);
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.registerbtn {
+  width: 240px;
+  height: 50px;
+  font-family: Product Sans;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgb(247, 245, 245);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+
+.registerbtn:hover {
+  background-color: #89d0ee;
+  box-shadow: 0px 15px 20px rgba(137,208,238,255);
+  color: #fff;
+  transform: translateY(-7px);
+}
