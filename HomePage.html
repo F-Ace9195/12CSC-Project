@@ -10,6 +10,11 @@
     h1 {
         font-size: 100px;
     }
+
+    form {
+        display: inline-block;
+
+    }
 </style>
 
 <body>
@@ -21,9 +26,13 @@
     <p>Your one stop for all your homework</p>
 
     <div class="wrap">
-        <form action="/action_page.php"></form>
-        <button class="button"><a href = "RegisterPage.html">Register</a></button>
-        <button class="button">Login</button>
+        <form action="RegisterPage.html">
+            <button class="button">Register</button>
+        </form>
+
+        <form action="LoginPage.html">
+            <button class="button">Login</button>
+        </form>
     </div>
 
 </body>
