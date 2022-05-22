@@ -1,17 +1,17 @@
-from bottle import route, run, debug, template
-import sqlite3
+from bottle import app, route, get, post, request, template, run, debug, static_file
 
 
+@route('static/<filepath:path>')
+def load_static(filepath):
+    return static_file(filepath, root='H:/12CSC Project')
 
-@route('/todo')
-def todo_list():
-    conn = sqlite3.connect('todo.db')
-    c = conn.cursor()
-    c.execute("SELECT id, task FROM todo WHERE status LIKE '1'")
-    result = c.fetchall()
-    return str(result)
+@route("/")
+@route("/home")
+def home_page():
+    if request.GET.save:
+        pass
+    else:
+        return template('HomePage.tpl')
 
-run()
-
-
-run(host='0.0.0.0', port=8080, reloader=True, debug=True)
+debug(True)
+run(reloader=True)

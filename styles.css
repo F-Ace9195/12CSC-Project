@@ -39,7 +39,7 @@ body {
 
 input[type=text], input[type=password] {
   font-family: Product Sans;
-  width: 1800px;
+  width: 97%;
   padding: 15px;
   margin: 10px 0 22px 0;
   border: none;

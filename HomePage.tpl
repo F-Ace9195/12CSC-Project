@@ -4,7 +4,7 @@
 
 </head>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="12CSC Project/styles.css">
 
 <style>
     h1 {
