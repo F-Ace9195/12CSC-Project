@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('todo.db') # Warning: This file is created in the current directory
+conn = sqlite3.connect('list.db') # Warning: This file is created in the current directory
 conn.execute("CREATE TABLE todo (id INTEGER PRIMARY KEY, task char(100) NOT NULL, status bool NOT NULL)")
 conn.execute("INSERT INTO todo (task,status) VALUES ('Read A-byte-of-python to get a good introduction into Python',0)")
 conn.execute("INSERT INTO todo (task,status) VALUES ('Visit the Python website',1)")
