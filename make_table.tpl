@@ -68,8 +68,8 @@ form {
         justify-content: center;
     }
 
-    .todoTable tr:nth-child(even,odd){background-color: aqua;}
-    .todoTable tr:hover{background-color: blue;opacity: 0.9;}
+    .todoTable tr:nth-child(even,odd){background-color: aua;}
+    .todoTable tr:hover{background-color: #89d0ee;opacity: 0.5;}
     .todoTable tr:hover TD:nth-child(1){font-weight: bold;}
 
 
